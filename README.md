@@ -1,8 +1,8 @@
-# URL Cleaner Chrome Extension
+# Uner - URL Cleaner Chrome Extension
 
 ## Overview
 
-**URL Cleaner** is a Chrome extension that helps you clean tracking parameters from URLs on any webpage, protecting your privacy and providing cleaner, easier-to-read links. With a simple toggle button in the extension popup, you can enable or disable URL cleaning on the current tab.
+**Uner** is a Chrome extension that helps you clean tracking parameters from URLs on any webpage, protecting your privacy and providing cleaner, easier-to-read links. With a simple toggle button in the extension popup, you can enable or disable URL cleaning on the current tab.
 
 ---
 
@@ -14,6 +14,31 @@
 - Saves toggle state across browser sessions using Chrome Storage Sync.
 - Reloads the tab when toggled off to restore original URLs.
 
+---
+
+## 📥 Clone the Repository
+
+First, clone the extension source code to your local machine:
+
+```bash
+git clone https://github.com/aashu-kattel/Uner.git
+cd Uner
+```
+ # Add extension to your browser:
+
+- Save all files in one folder.
+
+- Open Chrome and go to `chrome://extensions/`.
+
+- Enable Developer mode.
+
+- Click “Load unpacked” and select your folder.
+
+- Click the extension icon → toggle the checkbox.
+
+- Reload the active tab if needed.
+
+- All tracking parameters on links in the page will be cleaned when enabled.
 ---
 
 ## Why Use URL Cleaner?
@@ -57,6 +82,4 @@
 - Reload the tab to reset URLs if needed.
 
 ---
-
-
 
